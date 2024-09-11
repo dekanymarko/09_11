@@ -1,0 +1,10 @@
+        Console.Write("szám: ");
+        int a = int.Parse(Console.ReadLine());
+
+        if (a < 0)
+        {
+            a = -a;
+        }
+
+
+        Console.WriteLine("abszolút érték: " + a);
